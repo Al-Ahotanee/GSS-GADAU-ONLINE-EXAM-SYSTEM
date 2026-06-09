@@ -1,10 +1,10 @@
 {
   "name": "gss-gadau-exam-system",
   "version": "1.0.0",
-  "description": "GSS Gadau Online Examination System",
-  "scripts": {
-    "dev:api": "cd api && npm run dev",
-    "dev:client": "cd client && npm start",
-    "install:all": "cd api && npm install && cd ../client && npm install"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
   }
 }
