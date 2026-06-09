@@ -1,0 +1,17 @@
+{
+  "name": "gss-exam-api",
+  "version": "1.0.0",
+  "description": "GSS Gadau Exam System - Serverless API",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
